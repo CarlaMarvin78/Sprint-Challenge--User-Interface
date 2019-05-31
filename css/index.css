@@ -194,17 +194,19 @@ p {
     margin-bottom:25px;
 }
 
-.columns2 {
-    width:20%;
-    margin: 30px;
-
-}  
 .columns{
     display: flex;
     flex-wrap: wrap;
-        
 }
 
+.column2 {
+    width:40%;
+    margin: 30px;
+}  
+
+.column2 img {
+    width:100%;
+}
 button {
     margin-top: 20px;
     padding: 5px 20px;
