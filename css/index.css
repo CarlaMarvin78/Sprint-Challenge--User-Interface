@@ -64,14 +64,12 @@ h1, h2, h3, h4, h5 {
 nav {
     padding:20px;
     text-decoration: none;
-    
-}
+    }
 nav a {
     text-decoration: none;
     color:black;
     padding: 0px 30px;
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 
 .topImage {
@@ -80,7 +78,7 @@ nav a {
 li {
     display: inline-block;
 }
-    
+ 
 p {
     line-height: 1.4;
 }
@@ -183,6 +181,35 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+#about {
+        display: flex;
+        flex-wrap: wrap;
+        align-content:left;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        padding:25px;
+}
+#topImage {
+    margin-bottom:25px;
+}
+
+.columns2 {
+    width:20%;
+    margin: 30px;
+
+}  
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+        
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background: f4f3f4;
+    border-radius: 5px;
 }
 
 footer {
