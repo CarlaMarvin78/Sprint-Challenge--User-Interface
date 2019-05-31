@@ -199,9 +199,9 @@ p {
     margin: 30px;
 
 }  
-.columns {
+.columns{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
         
 }
 
