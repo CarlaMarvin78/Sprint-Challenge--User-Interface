@@ -61,6 +61,15 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+nav {
+   
+    padding:20px;
+}
+li {
+    display: inline-block;
+}
+    
+}
 
 p {
     line-height: 1.4;
@@ -69,7 +78,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-}
+    }   
 
 .top-content {
     display: flex;
@@ -104,12 +113,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box {
+    background-color:black;
+}
+
+#1{ background-color:teal;
+}
+
+#2 {
+    background-color:gold;
+}
+
+#3 {
+    background-color:cadetblue;
+}
+
+#4 {
+    background-color:coral;
+}
+
+#5 {
+    background-color:crimson;
+}
+
+#6 {
+    background-color:forestgreen;
+}
+
+#7 {
+    background-color:darkorchid;
+}
+
+#8 {
+    background-color:hotpink;
+}
+
+#9 {
+    background-color:indigo;
+}
+
+#10 {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
