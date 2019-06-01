@@ -188,7 +188,7 @@ p {
         align-content:left;
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
-        padding:25px;
+        padding:15px;
 }
 #topImage {
     margin-bottom:25px;
@@ -197,23 +197,34 @@ p {
 .columns{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .column2 {
-    width:40%;
-    margin: 30px;
+    width:46%;
+    margin: 0px 30px 10px 0px;
+    border-bottom: 1px dashed;
 }  
 
 .column2 img {
     width:100%;
+   
 }
 button {
     margin-top: 20px;
-    padding: 5px 20px;
-    background: f4f3f4;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background: white;
+    border:1px solid black;
     border-radius: 5px;
+    font-size: 14px;
 }
-
+h3{
+    margin-top:20px;
+}
+.together{
+    padding: 20px 0px;
+}
 footer {
     width: 100%;
     background: black;
@@ -224,8 +235,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 10px;
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 footer nav a {
