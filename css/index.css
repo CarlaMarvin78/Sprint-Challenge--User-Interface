@@ -61,7 +61,24 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+nav {
+    padding:20px;
+    text-decoration: none;
+    }
+nav a {
+    text-decoration: none;
+    color:black;
+    padding: 0px 30px;
+    font-size: 14px;    
+}
 
+.topImage {
+    padding:30px;
+}
+li {
+    display: inline-block;
+}
+ 
 p {
     line-height: 1.4;
 }
@@ -69,7 +86,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-}
+    }   
 
 .top-content {
     display: flex;
@@ -104,12 +121,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+ #teal { background-color:teal;
+}
+
+#gold {
+    background-color:gold;
+}
+
+#cadetblue {
+    background-color:cadetblue;
+}
+
+#coral {
+    background-color:coral;
+}
+
+#crimson {
+    background-color:crimson;
+}
+
+#forestgreen {
+    background-color:forestgreen;
+}
+ 
+#darkorchid {
+    background-color:darkorchid;
+}
+
+#hotpink {
+    background-color:hotpink;
+}
+
+#indigo {
+    background-color:indigo;
+}
+
+#dodgerblue {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -125,7 +182,49 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+#about {
+        display: flex;
+        flex-wrap: wrap;
+        align-content:left;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        padding:15px;
+}
+#topImage {
+    margin-bottom:25px;
+}
 
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.column2 {
+    width:46%;
+    margin: 0px 30px 10px 0px;
+    border-bottom: 1px dashed;
+}  
+
+.column2 img {
+    width:100%;
+   
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background: white;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+h3{
+    margin-top:20px;
+}
+.together{
+    padding: 20px 0px;
+}
 footer {
     width: 100%;
     background: black;
@@ -136,8 +235,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 10px;
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 footer nav a {
